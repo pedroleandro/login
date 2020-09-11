@@ -48,7 +48,7 @@ define("DATA_LAYER_CONFIG", [
 define("SOCIAL", [
     "facebook_page" => "pedroleandro.gomesdasilva.3",
     "facebook_author" => "pedroleandro.gomesdasilva.3",
-    "facebook_appId" => "",
+    "facebook_appId" => "3597744923578165",
     "twitter_creator" => "@pedroleandrog",
     "twitter_site" => "@pedroleandrog"
 ]);
