@@ -1,0 +1,36 @@
+{
+  "name": "pedroleandro/login",
+  "description": "Sistema de login completo dentro de uma arquitetura MVC fazendo conexão com redes sociais e controle de sessão.",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pedro Leandro",
+      "email": "pedro.leandrog@gmail.com",
+      "role": "Developer",
+      "homepage": "https://github.com/pedroleandro/login"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source"
+    },
+    "files": [
+      "source/Config.php",
+      "source/Helpers.php"
+    ]
+  },
+  "require": {
+    "ext-json": "*",
+    "coffeecode/router": "2.0.2",
+    "coffeecode/datalayer": "2.0.7",
+    "coffeecode/optimizer": "2.1.1",
+    "coffeecode/uploader": "2.0.4",
+    "coffeecode/cropper": "2.0.4",
+    "phpmailer/phpmailer": "v6.9.1",
+    "league/plates": "v3.5.0",
+    "league/oauth2-facebook": "2.2.0",
+    "league/oauth2-google": "4.0.1",
+    "matthiasmullie/minify": "^1.3"
+  }
+}
